@@ -5601,6 +5601,7 @@ fieldset:disabled .btn {
 }
 
 .toast {
+    opacity: 0;
     --bs-toast-zindex: 1090;
     --bs-toast-padding-x: 0.75rem;
     --bs-toast-padding-y: 0.5rem;
@@ -5670,6 +5671,8 @@ fieldset:disabled .btn {
     padding: var(--bs-toast-padding-x);
     word-wrap: break-word
 }
+
+
 
 .modal {
     --bs-modal-zindex: 1055;
@@ -5920,6 +5923,7 @@ fieldset:disabled .btn {
         overflow-y: auto
     }
 }
+
 
 @media (max-width:991.98px) {
     .modal-fullscreen-lg-down {
